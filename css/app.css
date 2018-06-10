@@ -8,6 +8,7 @@
 .mainPic {
   width: 60%;
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -24,13 +25,13 @@
   flex-wrap: wrap;
   width: 40%;
   justify-content: center;
+  align-items: center;
   background: #f4c242;
 }
 
 #name {
   font-family: sans-serif;
   width: 100%;
-  align-self: center;
   padding: 35%;
 }
 
@@ -51,4 +52,35 @@
 
 .menu a.active {
   background-color: black;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: verdana;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5%;
+}
+
+#imHere, #youreHere{
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#imHere  h2 {
+  font-size: 1.5em;
+}
+
+#imHere {
+  color: white;
+  background: #16425b;
+}
+
+#youreHere {
+  background: #f4c242;
 }

@@ -26,13 +26,16 @@
   width: 40%;
   justify-content: center;
   align-items: center;
-  background: #f4c242;
 }
 
 #name {
   font-family: sans-serif;
   width: 100%;
   padding: 35%;
+}
+
+.menu img {
+  border-radius: 25px;
 }
 
 .menu a {

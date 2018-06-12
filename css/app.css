@@ -103,3 +103,46 @@
 #youreHere {
   color: #16425b;
 }
+
+.products {
+  margin-top: 5%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: verdana;
+}
+
+#leftSide {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  background: #f7b83b;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.text h1 {
+  width: 100%;
+}
+
+#leftSide img {
+  height: auto;
+  padding: 2%;
+}
+
+#rightSide {
+  width: 40%;
+  flex: 1;
+  display: flex;
+  background: #16425b;
+  color: white;
+  flex-direction: column;
+  height: inherit;
+}

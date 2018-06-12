@@ -146,3 +146,21 @@
   flex-direction: column;
   height: inherit;
 }
+
+#footer {
+  margin-top: 2.5%;
+  background: #0f364c;
+  color: white;
+  text-decoration: none;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: verdana;
+}
+
+#footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}

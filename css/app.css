@@ -29,7 +29,7 @@
 }
 
 #name {
-  font-family: sans-serif;
+  font-family: verdana;
   width: 100%;
   padding-top: 10%;
   text-align: center;
@@ -79,7 +79,17 @@
   text-align: center;
   align-content: center;
   line-height: 1.5;
-  font-weight: bold;
+}
+.leaves {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.leaves img {
+  width: 35px;
+  height: 32px;
 }
 
 #imHere  h2 {

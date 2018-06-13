@@ -168,7 +168,7 @@
 }
 
 /*media queries*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
   .openingContainter {
     height: 55vh;
     justify-content: center;
@@ -195,12 +195,22 @@
     width: 70%;
     padding-left: 15%;
     height: 100vh;
+    flex-direction: column;
+  }
+  #imHere {
+    width: 100%;
+  }
+
+  #youreHere {
+    width: 100%;
   }
   .products {
     flex-direction: column;
+    margin-top: 20px;
   }
   #leftSide {
     width: 100%;
+    order: 2;
     display: block;
   }
   .text {
@@ -208,12 +218,11 @@
     text-align: center;
     padding-left: 5%;
   }
-  .text img {
-    padding: 10%;
+  .leftSide img {
+    margin-left: 15%;
   }
   #rightSide {
+    order: 0;
     width: 100%;
   }
-
-
 }

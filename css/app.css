@@ -1,4 +1,9 @@
 /*css file for portfolio site*/
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .openingContainter {
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +217,7 @@
   #leftSide {
     width: 100%;
     order: 2;
-    display: block;
+    display: flex;
   }
   .text {
     width: 80%;
@@ -226,4 +231,64 @@
     order: 0;
     width: 100%;
   }
+  #footer {
+    width: 100vh;
+  }
 }
+
+@media only screen and (max-width: 489px) {
+  .openingContainter {
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainPic {
+    order: 2;
+    height: 30%;
+    flex-basis: 100%;
+  }
+  #pic {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+  }
+  .menu {
+    order: 0;
+    width: 100%;
+  }
+  .makeSpace {
+    margin-top: 0px;
+  }
+  .about {
+    padding-top: 2%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #imHere {
+    margin-top: 10%;
+  }
+  #youreHere {
+    margin-bottom: 100px;
+  }
+  #leftSide {
+    width: 100%;
+    order: 2;
+    display: flex;
+    margin-top: 10%;
+  }
+  .text {
+    width: 80%;
+    text-align: center;
+    padding-left: 5%;
+  }
+  .leftSide img {
+    margin-left: 15%;
+  }
+  #rightSide {
+    order: 0;
+    width: 100%;
+  }
+
+}
+350px - 488px

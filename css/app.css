@@ -175,8 +175,7 @@ body {
 }
 
 /*media queries*/
-@media only screen and (min-width: 489px)
-and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .openingContainter {
     height: 55vh;
     justify-content: center;
@@ -202,7 +201,7 @@ and (max-width: 650px) {
   .about {
     width: 70%;
     padding-left: 15%;
-    height: 100vh;
+    height: 80vh;
     margin: 5% 0 5% 0;
   }
   #imHere {
@@ -237,69 +236,33 @@ and (max-width: 650px) {
     width: 100%;
   }
 }
-
+@media only screen and (min-width: 500px)
+and (max-width: 550px){
+  about {
+    height: 75vh;
+  }
+}
+  @media only screen and (min-width: 440px)
+and (max-width: 500px){
+  .about {
+    height: 85vh;
+  }
 }
 @media only screen and (min-width: 350px)
 and (max-width: 488px){
-  .openingContainter {
-    height: 50vh;
-    justify-content: center;
-    align-items: center;
-  }
-  .mainPic {
-    order: 2;
-    height: 30%;
-    flex-basis: 100%;
-  }
-  #pic {
-    height: 60px;
-    width: 60px;
-    margin-top: 0px;
-  }
-  .menu {
-    order: 0;
-    width: 100%;
-  }
-  .makeSpace {
-    margin-top: 0px;
-  }
-  .about {
-    padding-top: 2%;
-    flex-basis: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .about {
-    height: 100vh;
-  }
-  #imHere {
-    margin-top: 10%;
+
+  .imHere {
+    padding: 0 5% 10% 5%;
   }
   #youreHere {
-    margin-bottom: 100px;
+    margin-bottom: 300px;
   }
-  #leftSide {
-    width: 100%;
-    order: 2;
-    display: flex;
-    margin-top: 10%;
-  }
-  .text {
-    width: 80%;
-    text-align: center;
-    padding-left: 5%;
-  }
-  .leftSide img {
-    margin-left: 15%;
-  }
-  #rightSide {
-    order: 0;
-    width: 100%;
-  }
-  #footer {
-    width: 100%;
+  .about {
+    height: 125vh;
   }
 }
 @@media only screenand (max-width: 349px) {
-
+  .about {
+   height: 180vh;
+  }
 }
